@@ -6,7 +6,7 @@ This ReadMe and sample app are from a presentation on Alloy Model Binding with A
 * http://github.com/appcelerator/alloy
 
 App to demo Alloy Model Validation & Binding
-* Using RandomUserMe API http://randomuser.me 
+* Using RandomUserMe API http://randomuser.me
 * Login Form + Validation
 * TableView Collection Binding
 * ListView Collection Binding
