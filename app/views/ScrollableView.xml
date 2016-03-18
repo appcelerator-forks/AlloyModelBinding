@@ -1,0 +1,11 @@
+<Alloy>
+    <Collection src="randomuserme" />
+    <Window id="winScrollableView" title="ScrollableView Model Binding" onClose="cleanup">
+		<ScrollableView dataCollection="randomuserme">
+        	<View onClick="rowClicked" rowId="{id}">
+        		<ImageView class="image" rowId="{id}" image="{ProfilePhoto}"/>
+        		<Label class="title" rowId="{id}" text="{Firstname} {Lastname}"/>
+        	</View>
+		</ScrollableView>       
+    </Window>
+</Alloy>

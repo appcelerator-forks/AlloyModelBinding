@@ -1,0 +1,12 @@
+
+".container" : {
+  
+}
+
+".image": {
+  bottom:20
+}
+
+".title": {
+  top:20
+}

@@ -1,0 +1,13 @@
+<Alloy>
+    <TabGroup backgroundColor="white" id="tabGroup">
+        <Tab id="tabTableView" title="TableView" icon="/images/tableview.png">
+            <Require src="TableView"/>
+        </Tab>
+        <Tab id="tabListView" title="ListView" icon="/images/listview.png">
+            <Require src="ListView"/>
+        </Tab>
+        <Tab id="tabScrollableView" title="ScrollableView" icon="/images/scrollableview.png">
+            <Require src="ScrollableView"/>
+        </Tab>         
+    </TabGroup>
+</Alloy>

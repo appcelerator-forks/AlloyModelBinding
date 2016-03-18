@@ -1,0 +1,18 @@
+<Alloy>
+	<Collection src="login" />
+	<Window class="container">
+		<View layout="vertical" class="wrapper">
+			<ImageView image="/images/Applification-Logo.png" height="100" />
+			<Label id="label">Login with Validation using Alloy Model</Label>
+			<TextField id="txtEmail" hintText="Username" value="fayçal.hoekstra59@example.com"></TextField>
+			<TextField id="txtPassword" hintText="Password" value="eagle1"></TextField>
+			<Button id="btnLogin" title="Login" onClick="validateLogin" />
+
+			<View layout="vertical" top="30">
+				<Label>Login Details</Label>
+				<Label>u/n: fayçal.hoekstra59@example.com</Label>
+				<Label>p/w: eagle1</Label>
+			</View>
+		</View>
+	</Window>
+</Alloy>

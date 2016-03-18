@@ -1,0 +1,15 @@
+<Alloy>
+    <Collection src="randomuserme" />
+    <Window id="winTableView" title="TableView Model Binding" onClose="cleanup">
+        <Widget id="ptr" src="nl.fokkezb.pullToRefresh" onRelease="myRefresher">
+            <TableView dataCollection="randomuserme">
+                <TableViewRow onClick="rowClicked" rowId="{id}">
+                    <View layout="horizontal" height="Ti.UI.SIZE">                   
+                        <ImageView defaultImage="/images/defaultImage.jpg" image="{ProfileThumb}" width="50"/> 
+                        <Label text="{Fullname}" left="70"/>                
+                    </View>
+                </TableViewRow>
+            </TableView>       
+        </Widget>
+    </Window>
+</Alloy> 

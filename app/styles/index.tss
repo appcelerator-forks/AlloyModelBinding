@@ -1,0 +1,33 @@
+".container": {
+	backgroundColor:"#fcfcfc",
+	tintColor:'#00a3d9'
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+
+"#label": {
+	font: {
+		fontSize: 12
+	}
+}
+
+"#txtEmail": {
+	top:20,
+	color:"#00a3d9",
+  autocapitalization: Titanium.UI.TEXT_AUTOCAPITALIZATION_NONE,
+  autocorrect: false
+}
+
+"#txtPassword": {
+	top:20,
+	color:"#00a3d9",
+	passwordMask:true
+}
+
+"#btnLogin": {
+	top:10
+}
